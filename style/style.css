@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+.header-general{
+background-color:#D487DE ;
+align-items:center;
+}
+    
+.gridcontainer .header-general .titulo_header{
+font-family: 'Mochiy pop one' , sans-serif;
+font-size: 45px;
+margin-top: 5px;
+padding: 5px;
+color:#50315E ;
+}
+.portada{
+width: 100%;
+height: 70vh;
+background-image: url(../img/portadaperros.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment:fixed
+}
+.barra-nav{
+margin-left: 10%;
+}
+nav a {
+    text-decoration: none;
+    font-family: 'Saira',sans-serif;
+    color: #50315E;
+}
+ul{
+    list-style:none;
+    display: flex;
+}
+ ul li{
+margin: 6px;
+padding: 5px;
+border: 15px ;
+background-color: #D487DE ;
+}
+.contenedor-productos{
+margin: 10px;
+padding: 10px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2,1fr);
+align-items: center;
+}
+
+img{
+    max-width: 60%;
+    max-height: 60%;
+}
+
+
+.tarjeta{
+height: 350px;
+margin: 20px;
+padding: 20px;
+display:inline-block;
+justify-content: center;
+align-items: center;
+}
+
+.tarjeta__titulo{
+font-size: 20px;
+font-family: 'Saira',sans-serif;
+margin-bottom: 10px;
+}
+.tarjeta__descripcion{
+    font-size: 1em;
+    font-family: 'saira',sans-serif;
+    text-align:left;
+}
+button{
+background-color: rgba(187, 127, 255, 0.644);
+border: rgba(187, 127, 255, 0.644) 2px solid;
+border-radius: 20px;
+padding: 10px;
+margin: 10px;
+}
+
+h2{
+font-family: 'saira',sans-serif;
+text-align: center;
+}
+.titulo-halloween{
+    background-color:#D487DE ;
+    color: #50315E;
+    }
+
+.barra-footer{
+    background-color:#D487DE ;
+    font-family: 'Saira',sans-serif;
+    display:flex;
+    justify-content: flex-end;
+align-items: center;
+overflow: hidden;
+padding-top: 20px;
+}
+
+
+.barra-footer ul li {
+    margin: 0;
+    padding: 15px;   
+}
+.barra-footer a{
+text-decoration: none;
+}
+/** media index **/
+@media (max-width:517px){
+.header-general{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.gridcontainer .header-general .titulo_header {
+font-size: 35px;
+margin: 0;
+margin-left: 0;
+}
+.header-general .barra-nav{
+margin:auto;
+}
+.barra-nav a{
+font-size: 13px;
+padding: 0;
+margin: 8px;
+}
+.barra-nav ul li{
+margin: 0;
+border: 0;
+}
+.productos .contenedor-productos{
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(6,1fr);
+}
+
+.productos .contenedor-disfraz{
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(3,1fr);
+}
+.footer-general h3{
+margin-left: 0;
+}
+.tarjeta__imagen{
+    height:min-content;
+    width: auto;
+}
+}
+@media only screen and (min-width:518px) and (max-width:1023px){
+.header-general{
+display: flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+}
+.gridcontainer .header-general .titulo_header{
+justify-content: center;
+font-weight: 300;
+}
+.header-general .barra-nav nav a{
+font-size: 15px;
+margin: auto;
+}
+.productos .contenedor-productos{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
+.gridcontainer .contenedor-disfraz{
+display: grid;
+grid-template-columns:repeat(2,1fr);
+grid-template-rows: repeat(2,1fr);
+}
+}
+    
+@media (min-width: 1024px){
+.gridcontainer{
+overflow: hidden;
+}
+.gridcontainer .header-general{
+display: flex;
+flex-direction:column;
+overflow: hidden;
+}
+.header-general .barra-nav{
+margin: 0%;
+width: fit-content;
+display: flex;
+position: relative;
+}
+.gridcontainer .header-general .titulo_header{
+justify-content: center;
+}
+.barra-nav a{
+font-size:25px;
+margin: 20px;
+}
+.barra-nav ul li{
+margin:0;
+padding: 2px;
+border: 0px;
+}
+main .portada{
+height: 80vh;
+background-position:initial
+}
+.productos .contenedor-productos{
+display: grid;
+grid-template-columns: repeat(3,33.3%);
+grid-template-rows: repeat(2, 1fr);
+justify-content: center;
+gap: 15px;
+} 
+.productos .productos_titulo{
+font-size: 35px;
+}
+.titulo-halloween{
+font-size: 30px;
+}
+.contenedor-productos .tarjeta{
+margin: 0;
+}
+.gridcontainer .contenedor-disfraz{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.contenedor-disfraz .tarjeta{
+margin-top: 10px;
+padding: 10px;
+}
+}
+/** fin de media index**/
+/** html contactenos media**/
+@media (max-width:480px){
+.gridcontactenos .header-general .titulo_header {
+font-size: 35px;
+}
+.gridcontactenos .header-general .barra-nav a{
+font-size: 13px;
+}
+.direccion .contenedor_direccion{
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 35% 55%;
+justify-content: center;
+align-items: center;
+}
+.contenedor_direccion h2{
+margin-top: 0;
+font-size: 25px;
+}
+.contenedor_direccion .mapa iframe{
+display: flex;
+height:20vh;
+width: 65%;
+overflow: hidden;
+margin: auto;
+}
+.novedades .contenedor_novedades{
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 15% 75%;
+}
+.contenedor_novedades h2{
+font-size: 17px;
+margin-bottom: 80px;
+margin-top: 15px;
+}
+.contenedor_novedades .formulario {
+display: flex;
+justify-content: center;
+margin: auto;
+}
+.contenedor_novedades .formulario .fieldset{
+display: flex;
+justify-content: center;
+}
+}
+@media only screen and (min-width:481px) and (max-width:1023px){
+.direccion .contenedor_direccion{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.contenedor_novedades h2{
+margin-bottom: 15px;
+}
+}
+@media (min-width:1024px){
+.direccion .contenedor_direccion{
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 15% 85%;
+}
+.direccion .contenedor_direccion .mapa iframe{
+margin:auto;
+height: 45vh;
+width: 80%;
+overflow: hidden;
+margin-left: 12%;
+margin-right: 12%;
+}
+.direccion .contenedor_direccion h2{
+margin-top: 10%;
+}
+.footer-general  h3{
+margin-right: 0;
+}
+}
+.contenedor_direccion{
+padding:0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgba(225, 127, 255, 0.671);
+height: 70vh;
+}
+.direccion_local h2{
+  margin: 20px; 
+  margin-left: 20%; 
+}
+/** Novedades en html contactenos**/
+.novedades{
+background-color:rgba(225, 127, 255, 0.671) ;
+}
+.novedades h2{
+text-align: center;
+background-color:rgb(225, 127, 255) ;
+}
+/**formulario en html contactenos**/
+.novedades fieldset legend{
+font-family: 'Saira';
+}
+.novedades fieldset{
+margin-inline-start: 30%;
+margin-inline-end: 30%;
+padding-block-start: 0.50em;
+padding-block-end: 1em;
+padding-inline-start: 0.70em;
+padding-inline-end: 0.70em;
+border-width: 2px;
+border-style: groove;
+border-color: white;
+padding: 15px;
+}
+/**html nosotros*/
+.portada-nosotros{
+height: 85vh;
+background: wheat url(../img/nosotros.jpg) center / cover no-repeat fixed;
+display: flex;
+align-items: center;
+flex-direction: column-reverse;
+}
+/**texto sobre portada**/
+.nombres-nosotros h2{
+text-align:center;
+color: rgb(97, 29, 185);
+border-radius: 10px;
+padding: 10px;
+margin-top: 5%;
+background-color: rgba(240, 248, 255, 0.521);
+} 
+.emprendimiento{
+background-color: bisque;   
+padding: 5px;
+align-items: center;
+
+}
+.emprendimiento__texto{
+ margin: 20px; 
+ font-family:'Saira'; 
+ text-align: center; 
+}
+.peluqueria-seccion .horarios p{
+font-family: 'Saira';
+}
+.peluqueria-seccion .horarios{
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.peluqueria-seccion .horarios img{
+max-width: 70%;
+max-height: 25vh;
+}
+.peluqueria-seccion{
+height: 75vh;
+}
