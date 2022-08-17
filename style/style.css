@@ -204,6 +204,7 @@ position: relative;
 .gridcontainer .header-general .barra-nav  a:hover{
 background-color: #ebb6f1;
 font-size: 28px;
+text-shadow: 3px 3px 2px rgba(150, 122, 205, 1);
 }
 .gridcontainer .header-general .titulo_header{
 justify-content: center;
@@ -220,6 +221,7 @@ border: 0px;
 .footer-general .barra-footer ul li:hover{
 background-color: #ebb6f1;
 font-size: 19px;
+text-shadow: 3px 3px 2px rgba(150, 122, 205, 1);
 }
 main .portada{
 height: 80vh;
