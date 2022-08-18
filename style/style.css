@@ -97,6 +97,7 @@ text-shadow: 3px 3px 2px rgba(205, 177, 201, 1);
     background-color:#D487DE ;
     color: #50315E;
     text-shadow: 3px 3px 2px rgba(150, 122, 205, 1);
+    margin-bottom: 30px;
     }
 
 .barra-footer{
@@ -106,7 +107,7 @@ text-shadow: 3px 3px 2px rgba(205, 177, 201, 1);
     justify-content: flex-end;
 align-items: center;
 overflow: hidden;
-padding-top: 20px;
+padding-top: 15px;
 }
 
 
@@ -313,6 +314,15 @@ margin-bottom: 15px;
 }
 }
 @media (min-width:1024px){
+.gridcontactenos .header-general .titulo_header{
+    font-family: 'Mochiy pop one' , sans-serif;
+    font-size: 45px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding: 5px;
+    color:#50315E ;
+    text-shadow: 3px 3px 2px rgba(150, 122, 205, 1);   
+}
 .direccion .contenedor_direccion{
 display: grid;
 grid-template-columns: 1fr;
@@ -345,6 +355,8 @@ height: 70vh;
   margin: 20px; 
   margin-left: 20%; 
 }
+
+
 /** Novedades en html contactenos**/
 .novedades{
 background-color:rgba(225, 127, 255, 0.671) ;
@@ -411,4 +423,10 @@ max-height: 25vh;
 }
 .peluqueria-seccion{
 height: 75vh;
+}
+.img-alt{
+height: 54%;
+}
+.img-alt1{
+height: 65%;
 }
