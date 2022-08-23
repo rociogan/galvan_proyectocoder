@@ -161,6 +161,13 @@ margin-left: 0;
     width: auto;
 }
 }
+@media only screen and (min-width:576px) and (max-width:767px){
+.img-alt{
+height:65%;
+}
+}
+    
+
 @media only screen and (min-width:518px) and (max-width:1023px){
 .header-general{
 display: flex;
@@ -192,9 +199,7 @@ height: 55%;
 .img-alt2{
 height: 55%;
 }
-.img-alt{
-height: 40%;
-}
+
 }
     
 @media (min-width: 1024px){
