@@ -296,13 +296,7 @@ align-items: center;
 margin-top: 0;
 font-size: 25px;
 }
-.contenedor_direccion .mapa iframe{
-display: flex;
-height:20vh;
-width: 65%;
-overflow: hidden;
-margin: auto;
-}
+
 .novedades .contenedor_novedades{
 display: grid;
 grid-template-columns: 1fr;
@@ -342,6 +336,12 @@ margin-bottom: 15px;
     color:#50315E ;
     text-shadow: 3px 3px 2px rgba(150, 122, 205, 1);   
 }
+.gridcontactenos .nav-link:hover{
+ background-color: #ebb6f1;
+font-size: 28px;
+text-shadow: 3px 3px 2px rgba(150, 122, 205, 1);
+}
+
 .direccion .contenedor_direccion{
 display: grid;
 grid-template-columns: 1fr;
@@ -388,7 +388,7 @@ background-color:rgb(225, 127, 255) ;
 .novedades fieldset legend{
 font-family: 'Saira';
 }
-.novedades fieldset{
+.formulario{
 margin-inline-start: 30%;
 margin-inline-end: 30%;
 padding-block-start: 0.50em;
@@ -449,4 +449,9 @@ height: 75vh;
 font-size: 30px;
 margin: 13px;
 }
-
+.fondo{
+background-color:#D487DE;
+}
+.fondo-titulo{
+background-color:#AD4DB0;
+}
