@@ -1,0 +1,60 @@
+.portada{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../img/portadaperros.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed
+    }
+.tarjeta{
+    height: 350px;
+    margin: 20px;
+    padding: 20px;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    &__titulo{
+        
+        font-size: 20px;
+        font-family:$font-princial;
+        margin-bottom: 10px;
+        }
+        &__descripcion{
+            font-size: 1em;
+            font-family:$font-princial;
+            text-align:left;
+            }
+    }
+.titulo-halloween{
+    background-color:$color-secundario ;
+    color:$color-primario;
+    text-shadow: 3px 3px 2px rgba(150, 122, 205, 1);
+    }
+   h2{
+    font-family:$font-princial;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgba(205, 177, 201, 1);
+    }
+    @media only screen and (min-width:576px) and (max-width:767px){
+        .img-alt{
+        height:65%;
+        }
+        }
+        @media only screen and (min-width:518px) and (max-width:1023px){
+        .img-alt1{
+            height: 55%;
+            }
+        .img-alt2{
+            height: 55%;
+            }
+        }          
+    @media (min-width: 1024px){
+        
+    .img-alt1{
+    height: 60%;
+    }
+    .img-alt2{
+    height: 60%;
+    }
+    }

@@ -1,0 +1,25 @@
+.portada-nosotros{
+    height: 85vh;
+    background: wheat url(../img/nosotros.jpg) center / cover no-repeat fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+     h2{
+        text-align:center;
+        color: rgb(97, 29, 185);
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 5%;
+        background-color: rgba(240, 248, 255, 0.521);
+     }
+    }
+    .emprendimiento{
+    background-color: bisque;   
+    padding: 5px;
+    align-items: center;
+    &__texto{
+     margin: 20px; 
+     font-family:$font-princial; 
+     text-align: center; 
+    }
+   }

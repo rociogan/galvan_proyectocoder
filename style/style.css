@@ -1,5 +1,78 @@
-/*variables*/
-/*scss*/
+.header-general {
+  background-color: #D487DE;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header-general__titulo {
+  font-family: "Mochiy pop one", sans-serif;
+  font-size: 45px;
+  margin-top: 5px;
+  padding: 5px;
+  color: #50315E;
+  text-shadow: 3px 3px 2px rgb(150, 122, 205);
+}
+.header-general nav a {
+  text-decoration: none;
+  font-family: "Saira", sans-serif;
+  color: #50315E;
+}
+.header-general nav a ul {
+  list-style: none;
+  display: flex;
+}
+.header-general nav a ul li {
+  margin: 6px;
+  padding: 5px;
+  border: 15px;
+  background-color: #D487DE;
+}
+
+@media (min-width: 1024px) {
+  .header-general .navbar-collapse .navbar-nav .nav-link:hover {
+    background-color: #ebb6f1;
+    font-size: 28px;
+    text-shadow: 3px 3px 2px rgb(150, 122, 205);
+  }
+  .footer-general .barra-footer ul i:hover {
+    font-size: 45px;
+    color: rgb(150, 122, 205);
+  }
+}
+.barra-footer {
+  background-color: #D487DE;
+  font-family: "Saira", sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+  padding-top: 20px;
+}
+.barra-footer ul i {
+  font-size: 30px;
+  margin: 13px;
+}
+
+button {
+  background: linear-gradient(90deg, hsl(31deg, 90%, 76%) 0%, hsl(302deg, 82%, 76%) 100%);
+  border: rgba(187, 127, 255, 0.644) 2px solid;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 4px 6px 1px rgba(0, 0, 0, 0.58);
+}
+
+.portada {
+  width: 100%;
+  height: 70vh;
+  background-image: url(../img/portadaperros.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .tarjeta {
   height: 350px;
   margin: 20px;
@@ -19,39 +92,16 @@
   text-align: left;
 }
 
-button {
-  background: linear-gradient(90deg, hsl(31deg, 90%, 76%) 0%, hsl(302deg, 82%, 76%) 100%);
-  border: rgba(187, 127, 255, 0.644) 2px solid;
-  border-radius: 20px;
-  padding: 10px;
-  margin: 10px;
-  box-shadow: 4px 6px 1px rgba(0, 0, 0, 0.58);
-}
-
-h2 {
-  font-family: "Saira", sans-serif;
-  text-align: center;
-  text-shadow: 3px 3px 2px rgb(205, 177, 201);
-}
-
 .titulo-halloween {
   background-color: #D487DE;
   color: #50315E;
   text-shadow: 3px 3px 2px rgb(150, 122, 205);
 }
 
-.barra-footer {
-  background-color: #D487DE;
+h2 {
   font-family: "Saira", sans-serif;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  overflow: hidden;
-  padding-top: 20px;
-}
-.barra-footer ul i {
-  font-size: 30px;
-  margin: 13px;
+  text-align: center;
+  text-shadow: 3px 3px 2px rgb(205, 177, 201);
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -68,15 +118,6 @@ h2 {
   }
 }
 @media (min-width: 1024px) {
-  .gridcontainer .header-general .navbar-collapse .navbar-nav .nav-link:hover {
-    background-color: #ebb6f1;
-    font-size: 28px;
-    text-shadow: 3px 3px 2px rgb(150, 122, 205);
-  }
-  .footer-general .barra-footer ul i:hover {
-    font-size: 45px;
-    color: rgb(150, 122, 205);
-  }
   .img-alt1 {
     height: 60%;
   }
@@ -84,53 +125,13 @@ h2 {
     height: 60%;
   }
 }
-/**contactenos**/
-.contenedor_novedades h2 {
-  font-size: 17px;
-  margin-bottom: 80px;
-  margin-top: 15px;
+.fondo {
+  background-color: #D487DE;
+}
+.fondo-titulo {
+  background-color: #AD4DB0;
 }
 
-.contenedor_novedades .formulario {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-}
-
-.contenedor_novedades .formulario .fieldset {
-  display: flex;
-  justify-content: center;
-}
-
-/** Novedades en html contactenos**/
-.novedades {
-  background-color: rgba(225, 127, 255, 0.671);
-}
-
-.novedades h2 {
-  text-align: center;
-  background-color: rgb(225, 127, 255);
-}
-
-/**formulario en html contactenos**/
-.novedades fieldset legend {
-  font-family: "Saira", sans-serif;
-}
-
-.novedades fieldset {
-  margin-inline-start: 30%;
-  margin-inline-end: 30%;
-  padding-block-start: 0.5em;
-  padding-block-end: 1em;
-  padding-inline-start: 0.7em;
-  padding-inline-end: 0.7em;
-  border-width: 2px;
-  border-style: groove;
-  border-color: white;
-  padding: 15px;
-}
-
-/**html nosotros*/
 .portada-nosotros {
   height: 85vh;
   background: wheat url(../img/nosotros.jpg) center/cover no-repeat fixed;
@@ -138,9 +139,7 @@ h2 {
   align-items: center;
   flex-direction: column-reverse;
 }
-
-/**texto sobre portada**/
-.nombres-nosotros h2 {
+.portada-nosotros h2 {
   text-align: center;
   color: rgb(97, 29, 185);
   border-radius: 10px;
@@ -160,30 +159,20 @@ h2 {
   text-align: center;
 }
 
+.peluqueria-seccion {
+  height: 75vh;
+}
 .peluqueria-seccion .horarios {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.peluqueria-seccion .horarios p {
+.peluqueria-seccion p {
   font-family: "Saira", sans-serif;
 }
-
-.peluqueria-seccion .horarios img {
+.peluqueria-seccion img {
   max-width: 70%;
   max-height: 25vh;
-}
-
-.peluqueria-seccion {
-  height: 75vh;
-}
-
-.fondo {
-  background-color: #D487DE;
-}
-.fondo-titulo {
-  background-color: #AD4DB0;
 }
 
 /*# sourceMappingURL=style.css.map */

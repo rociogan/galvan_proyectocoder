@@ -1,0 +1,17 @@
+.barra-footer{
+    background-color:$color-secundario ;
+    font-family: $font-princial;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 20px;
+    ul{
+        i{
+            
+            font-size: 30px;
+            margin: 13px;
+                
+        }
+    }
+    }

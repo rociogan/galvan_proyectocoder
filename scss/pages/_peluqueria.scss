@@ -1,0 +1,15 @@
+.peluqueria-seccion{
+    height: 75vh;
+     .horarios{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+     }
+     p{
+        font-family: $font-princial;  
+     }
+     img{
+        max-width: 70%;
+        max-height: 25vh;  
+     }
+    }
