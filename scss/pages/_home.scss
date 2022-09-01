@@ -1,7 +1,7 @@
 .portada{
     width: 100%;
     height: 70vh;
-    background-image: url(../img/portadaperros.jpg);
+    background-image: url(../../img/portadaperros-redimensionado.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -36,12 +36,9 @@
     text-align: center;
     text-shadow: 3px 3px 2px rgba(205, 177, 201, 1);
     }
-    @media only screen and (min-width:576px) and (max-width:767px){
-        .img-alt{
-        height:65%;
-        }
-        }
-        @media only screen and (min-width:518px) and (max-width:1023px){
+
+
+        @include celular{
         .img-alt1{
             height: 55%;
             }
@@ -49,7 +46,7 @@
             height: 55%;
             }
         }          
-    @media (min-width: 1024px){
+    @include desktop{
         
     .img-alt1{
     height: 60%;

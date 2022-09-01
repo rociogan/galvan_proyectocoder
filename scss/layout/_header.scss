@@ -28,7 +28,7 @@
     }
     }
 }
-@media (min-width: 1024px){
+@include desktop{
      .header-general .navbar-collapse .navbar-nav .nav-link:hover{
         background-color: #ebb6f1;
         font-size: 28px;

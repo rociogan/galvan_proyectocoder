@@ -1,3 +1,12 @@
 $color-primario:#50315E;
 $color-secundario:#D487DE;
 $font-princial:'Saira',sans-serif;
+
+$botones:(
+formulario: linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%)
+);
+@each $boton ,$color in $botones{
+.button-#{$boton}{
+background-color: $color;
+}
+}

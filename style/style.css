@@ -1,3 +1,7 @@
+.button-formulario {
+  background-color: linear-gradient(90deg, hsl(221deg, 45%, 73%) 0%, hsl(220deg, 78%, 29%) 100%);
+}
+
 .header-general {
   background-color: #D487DE;
   align-items: center;
@@ -29,7 +33,7 @@
   background-color: #D487DE;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .header-general .navbar-collapse .navbar-nav .nav-link:hover {
     background-color: #ebb6f1;
     font-size: 28px;
@@ -66,7 +70,7 @@ button {
 .portada {
   width: 100%;
   height: 70vh;
-  background-image: url(../img/portadaperros.jpg);
+  background-image: url(../../img/portadaperros-redimensionado.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -104,12 +108,7 @@ h2 {
   text-shadow: 3px 3px 2px rgb(205, 177, 201);
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .img-alt {
-    height: 65%;
-  }
-}
-@media only screen and (min-width: 518px) and (max-width: 1023px) {
+@media (max-width: 575px) {
   .img-alt1 {
     height: 55%;
   }
@@ -117,7 +116,7 @@ h2 {
     height: 55%;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .img-alt1 {
     height: 60%;
   }
@@ -134,7 +133,7 @@ h2 {
 
 .portada-nosotros {
   height: 85vh;
-  background: wheat url(../img/nosotros.jpg) center/cover no-repeat fixed;
+  background: wheat url(../../img/nosotros-redimensionado.jpg) center/cover no-repeat fixed;
   display: flex;
   align-items: center;
   flex-direction: column-reverse;
