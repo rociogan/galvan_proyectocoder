@@ -5,51 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Saira:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet"    href="../style/style.css">
     <title>Perritos fiu fiu | Nosotros</title>
     <meta name="description" content="Conocé quienes somos y como empezamos un emprendimiento desde CERO">
 
 </head>
+    
 <body>
     <header class="header-general">
-        <h1 class="titulo_header">Perritos fiu fiu</h1>
-        <div class="barra-nav">
-            <nav>
-                <ul>
-                    <li> <a href="../index.html">Home</a> </li>
-                    <li><a href="../pages/contactenos.html">Contactenos</a></li>
-                    <li> <a href="../pages/sobrenosotros.html">Nosotros</a></li>
-                    <li><a href="../pages/veterinaria.html">Veterinaria</a></li>
-                    <li><a href="../pages/peluqueria.html">Peluqueria</a></li>
-                        
-                </ul> 
-            </nav>
-        </div>
-    </header> 
-    <section class="portada-nosotros">
-        <div class="nombres-nosotros">
-          <h2> Hola somos Merlin y Nataniel 
-            gracias por visitar nuestra pagina</h2>
-        </div>
-    </section>
-     <main>
-        <section class="emprendimiento">
-            <h2>¿Como empezamos nuestro emprendimiento?</h2>
-            <article class="emprendimiento__texto">
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ducimus hic delectus repudiandae obcaecati numquam nobis sed corrupti, accusamus, vitae itaque. Incidunt labore cupiditate provident quaerat id, corporis dicta a ex, delectus aperiam deserunt molestias odit sit consequatur eum ad atque illum neque necessitatibus soluta accusantium doloribus inventore. Perferendis a ab sint consequuntur unde illo in at corporis quas doloremque! Cum hic laboriosam eaque eius reiciendis perferendis est dignissimos ex temporibus facilis, soluta dolor voluptate in architecto, omnis autem, eligendi non. In inventore quae commodi, quo quasi consectetur recusandae consequatur cumque veniam, vero, tenetur cum libero vitae numquam. Nihil asperiores totam minus incidunt ullam, ab delectus culpa ea, sapiente magnam vel quia facere impedit ut itaque recusandae neque corrupti et mollitia fugit enim perspiciatis quas! Error, impedit neque. Saepe, minima optio? Minus numquam earum eum doloribus repellendus! Dolorem reprehenderit eum sapiente sunt incidunt. Quibusdam quidem placeat dolores unde qui excepturi!</p>  
-            </article>
-        </section>
-     </main>
-     <div class="footer-general">
-        <footer>
-            <div class="barra-footer">
-                <h3 >Nuestras redes</h3>
-                <ul>
-                    <li> <a href="">instagram</a></li>
-                    <li><a href="">facebook</a></li>
+        <h1 class="header-general__titulo text-center">Perritos fiu fiu</h1>
+        <nav class="navbar navbar-expand-lg py-0">
+            <div class="container-fluid ">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active fs-5" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-5" href="./pages/contactenos.html">Contactenos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-5" href="./nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-5" href="./pages/peluqueria.html">Peluqueria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-5" href="./pages/veterinaria.html">Veterinaria</a>
+                  </li>
                 </ul>
+              </div>
             </div>
-        </footer>
-    </div>
+          </nav>
+        </div>
+    </header>
+    <main>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../img/nosotros-redimensionado.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/nosotros-img2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/nosotros-imgperros.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+            <section class="emprendimiento">
+                <h2>¿Como empezamos nuestro emprendimiento?</h2>
+                <article class="emprendimiento__texto">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ducimus hic delectus repudiandae obcaecati numquam nobis sed corrupti, accusamus, vitae itaque. Incidunt labore cupiditate provident quaerat id, corporis dicta a ex, delectus aperiam deserunt molestias odit sit consequatur eum ad atque illum neque necessitatibus soluta accusantium doloribus inventore. Perferendis a ab sint consequuntur unde illo in at corporis quas doloremque! Cum hic laboriosam eaque eius reiciendis perferendis est dignissimos ex temporibus facilis, soluta dolor voluptate in architecto, omnis autem, eligendi non. In inventore quae commodi, quo quasi consectetur recusandae consequatur cumque veniam, vero, tenetur cum libero vitae numquam. Nihil asperiores totam minus incidunt ullam, ab delectus culpa ea, sapiente magnam vel quia facere impedit ut itaque recusandae neque corrupti et mollitia fugit enim perspiciatis quas! Error, impedit neque. Saepe, minima optio? Minus numquam earum eum doloribus repellendus! Dolorem reprehenderit eum sapiente sunt incidunt. Quibusdam quidem placeat dolores unde qui excepturi!</p>  
+                </article>
+            </section>
+        </main>
+        <div class="footer-general">
+            <footer>
+                <div class="barra-footer">
+                    <h3 >Nuestras redes</h3>
+                    <ul>
+                        <li> <a href="">instagram</a></li>
+                        <li><a href="">facebook</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>

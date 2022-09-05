@@ -58,14 +58,14 @@
   margin: 13px;
 }
 
-button {
+/**button {
   background: linear-gradient(90deg, hsl(31deg, 90%, 76%) 0%, hsl(302deg, 82%, 76%) 100%);
   border: rgba(187, 127, 255, 0.644) 2px solid;
   border-radius: 20px;
   padding: 10px;
   margin: 10px;
   box-shadow: 4px 6px 1px rgba(0, 0, 0, 0.58);
-}
+}**/
 
 .portada {
   width: 100%;

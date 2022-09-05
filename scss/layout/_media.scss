@@ -1,0 +1,16 @@
+@mixin desktop{
+@media (min-width:1200px){
+@content
+}
+};
+
+@mixin tablet1{
+@media (min-width:576px){
+@content
+}
+};
+@mixin celular {
+    @media (max-width:575px){
+    @content
+    }
+};
