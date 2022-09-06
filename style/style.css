@@ -32,11 +32,11 @@
 @media (min-width: 1200px) {
   .header-general .navbar-collapse .navbar-nav .nav-link:hover {
     background-color: #ebb6f1;
-    font-size: 28px;
+    font-size: 35px;
     text-shadow: 3px 3px 2px rgb(150, 122, 205);
   }
   .footer-general .barra-footer ul i:hover {
-    font-size: 45px;
+    size: 50px;
     color: rgb(150, 122, 205);
   }
 }
@@ -52,6 +52,19 @@
 .barra-footer ul i {
   font-size: 30px;
   margin: 13px;
+}
+
+.boton, .boton-formulario {
+  background: linear-gradient(90deg, hsl(31deg, 90%, 76%) 0%, hsl(302deg, 82%, 76%) 100%);
+  border: rgba(187, 127, 255, 0.644) 2px solid;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 4px 6px 1px rgba(0, 0, 0, 0.58);
+}
+
+.boton-formulario {
+  background: linear-gradient(90deg, hsl(221deg, 59%, 75%) 0%, hsl(216deg, 40%, 58%) 100%);
 }
 
 .portada {
@@ -142,7 +155,7 @@ h2 {
 .emprendimiento__texto {
   margin: 20px;
   font-family: "Saira", sans-serif;
-  text-align: center;
+  text-align: start;
 }
 
 .titulo-servi-pelu {
@@ -150,8 +163,9 @@ h2 {
   background-color: #E8D4F4;
 }
 
-.parrafo-lista {
+.estilo-de-texto {
   font-family: "Saira", sans-serif;
+  text-align: center;
 }
 
 .borde-card-veterinarios {

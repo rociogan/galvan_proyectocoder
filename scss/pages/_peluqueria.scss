@@ -3,6 +3,11 @@
    text-align: center;
    background-color:#E8D4F4 ;
    }
-   .parrafo-lista{
-   font-family: $font-princial;
+   
+   @mixin texto-de-lista {
+      font-family: $font-princial;
+      text-align: center;
+   }
+   .estilo-de-texto{
+   @include texto-de-lista;
    }

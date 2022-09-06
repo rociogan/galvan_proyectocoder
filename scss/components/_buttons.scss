@@ -1,0 +1,12 @@
+.boton{
+    background:linear-gradient(90deg, hsla(31, 90%, 76%, 1) 0%, hsla(302, 82%, 76%, 1) 100%);
+    border: rgba(187, 127, 255, 0.644) 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 4px 6px 1px rgba(0,0,0,0.58)
+    }   
+.boton-formulario{
+    @extend .boton;
+    background: linear-gradient(90deg, hsla(221, 59%, 75%, 1) 0%, hsla(216, 40%, 58%, 1) 100%);
+}
