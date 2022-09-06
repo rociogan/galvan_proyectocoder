@@ -1,15 +1,8 @@
-.peluqueria-seccion{
-    height: 75vh;
-     .horarios{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-     }
-     p{
-        font-family: $font-princial;  
-     }
-     img{
-        max-width: 70%;
-        max-height: 25vh;  
-     }
-    }
+
+   .titulo-servi-pelu{
+   text-align: center;
+   background-color:#E8D4F4 ;
+   }
+   .parrafo-lista{
+   font-family: $font-princial;
+   }
