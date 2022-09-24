@@ -158,6 +158,12 @@ h2 {
   text-align: start;
 }
 
+.slide img {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+}
+
 .titulo-servi-pelu {
   text-align: center;
   background-color: #E8D4F4;
