@@ -9,4 +9,6 @@
 .boton-formulario{
     @extend .boton;
     background: linear-gradient(90deg, hsla(221, 59%, 75%, 1) 0%, hsla(216, 40%, 58%, 1) 100%);
+    color: $color-primario;
+    text-decoration-style: solid;
 }

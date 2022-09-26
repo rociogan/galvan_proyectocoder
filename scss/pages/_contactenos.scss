@@ -5,3 +5,25 @@
         background-color:#AD4DB0;
         }
     }
+.form{
+&-label{
+    color: $color-primario;
+    font-weight: bold;
+   }
+&-check{
+.form-check-label{
+font-weight:500;
+color: $color-primario;
+}
+}
+}
+.titulo-legend2{
+    color: $color-primario;
+    font-weight: bold;
+}
+.input-group{
+&-text{
+color: $color-primario;
+font-weight: 700;
+}
+}
