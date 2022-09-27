@@ -27,3 +27,8 @@ color: $color-primario;
 font-weight: 700;
 }
 }
+@include desktop{
+.boton-formulario:hover{
+font-size: 20px ;
+}
+}
